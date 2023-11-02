@@ -1,0 +1,237 @@
+{
+            "tag":"nothing_1",
+            "patterns":["nothing much","nothing"
+            ],
+            "responses":["alright,call me if you need any assistance"
+            ]
+        },
+        {
+            "tag":"feelings_1",
+            "patterns":["there is so much work to do","i have lots to do","i have some work","i have some work to do"
+            ],
+            "responses":["well if that's the case i am here to assist you"
+            ]
+        },
+        {
+            "tag":"owner",
+            "patterns":["what is my name","what's my name jarvis"
+            ],
+            "responses":["GU HA RAJ"
+            ]
+        },
+        {
+            "tag":"good morning",
+            "patterns":["good morning jarvis"
+            ],
+            "responses":["Good morning sir, let us make the day  productive"
+            ]
+        },
+        {
+            "tag":"good afternoon",
+            "patterns":["good afternoon jarvis"
+            ],
+            "responses":["Good afternoon sir,please dont forget to hydrate your self"
+            ]
+        },
+        {
+            "tag":"good evening",
+            "patterns":["good evening jarvis"
+            ],
+            "responses":["Good Evening sir,grab a cup of coffee and we shall be having a productive evening"
+            ]
+        },
+        {
+            "tag":"feelings_2",
+            "patterns":["jarvis one favour","i need a favour","buddy i need a favour","jarvis i need a favour"
+            ],
+            "responses":["Sure, please tell me","please tell me how may i help you"
+            ]
+        },
+        {
+            "tag":"feelings_3",
+            "patterns":["thank you","thanks for helping me","i appreciate it"
+            ],
+            "responses":["you are most welcome","pleasure is mine sir","for you sir, always"
+            ]
+        },
+        {
+            "tag":"self",
+            "patterns":["introduce yourself","introduce yourself to my"
+            ],
+            "responses":["I am JARVIS, a virtual artificial intelligence and I'm here to assist you with a variety of tasks as best I can,sarcasm loaded to one knot one percent"
+            ]
+        },
+        {
+            "tag":"self_1",
+            "patterns":["what are you capable of","tell me your strengths"
+            ],
+            "responses":["i am capable of performing day to day tasks such as performing a search in google,informing you about the weather, calculations and much more"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye jarvis","bye","terminate" 
+            ],
+            "responses":["terminating","shutting down sir","going into offline mode"
+
+            ]
+        },
+
+
+
+        {
+            "tag":"wake up",
+            "patterns":["wake up" ,"wake up jarvis","jarvis please wake up"
+            ],
+            "responses":["wake up"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is the time","time jarvis","time" 
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is the date","date","date jarvis" 
+            ],
+            "responses":["date"
+
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is the day","day","day jarvis" 
+            ],
+            "responses":["day"
+
+            ]
+        },
+        {
+            "tag":"system stats",
+            "patterns":["how is the system running","system stats","how is the system operating" ,"how is the system running","how is the system working"
+            ],
+            "responses":["system stats"
+            ]
+        },
+        {
+            "tag":"increase the volume",
+            "patterns":["volume up","increase the volume" 
+            ],
+            "responses":["increase the volume"
+            ]
+        },
+        {
+            "tag":"decrease the volume",
+            "patterns":["volume down","decrease the volume" 
+            ],
+            "responses":["decrease the volume"
+            ]
+        },
+        {
+            "tag":"what do you mean by",
+            "patterns":["what do you mean by","what is the meaning of" 
+            ],
+            "responses":["what do you mean by"
+            ]
+        },
+        {
+            "tag":"open",
+            "patterns":["open","can you open" 
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"close",
+            "patterns":["close","can you close" 
+            ],
+            "responses":["close"
+            ]
+        },
+        {
+            "tag":"mail",
+            "patterns":["an you check the mail","check the mails" 
+            ],
+            "responses":["mail"
+            ]
+        },
+        {
+            "tag":"advice",
+            "patterns":["give me a advice","give me an advice","any quote","give me a quote"
+            ],
+            "responses":["advice"
+            ]
+        },
+        {
+            "tag":"temperature",
+            "patterns":["temperature","temperature report"
+            ],
+            "responses":["temperature"
+            ]
+        },
+        {
+            "tag":"humidity",
+            "patterns":["humidity","humidity report"
+            ],
+            "responses":["humidity"
+            ]
+        },
+        {
+            "tag":"windspeed",
+            "patterns":["windspeed","windspeed report"
+            ],
+            "responses":["windspeed"
+            ]
+        },
+        {
+            "tag":"where are we",
+            "patterns":["where are we","location"
+            ],
+            "responses":["where are we"
+            ]
+        },
+        {
+            "tag":"where is",
+            "patterns":["where is"
+            ],
+            "responses":["where is"
+            ]
+        },
+        {
+            "tag":"today's news",
+            "patterns":["today's news","read the news","what are the headlines","today's headlines"
+            ],
+            "responses":["today's news"
+            ]
+        },
+        {
+            "tag":"google search",
+            "patterns":["google search"
+            ],
+            "responses":["google search"
+            ]
+        },
+        {
+            "tag":"youtube search",
+            "patterns":["youtube search"
+            ],
+            "responses":["youtube search"
+            ]
+        },
+        {
+            "tag":"wikipedia search",
+            "patterns":["wikipedia search"
+            ],
+            "responses":["wikipedia search"
+            ]
+        },
+        {
+            "tag":"tired",
+            "patterns":["tired","i am feeling tired","i am feeling bored"
+            ],
+            "responses":["tired"
+            ]
+        }

@@ -1,0 +1,72 @@
+1690446725608	geckodriver	INFO	Listening on 127.0.0.1:50599
+1690446930559	geckodriver	INFO	Listening on 127.0.0.1:50641
+1691157652423	geckodriver	INFO	Listening on 127.0.0.1:61644
+1691157655500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ggguh\\AppData\\Local\\Temp\\rust_mozprofileqFS0Bg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691157655844	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691157655924	Marionette	INFO	Listening on port 61652
+Read port: 61652
+WebDriver BiDi listening on ws://127.0.0.1:61645
+1691157656141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61645/devtools/browser/8deebfab-2249-4b64-a274-296c50591afe
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XE-eSxg4gZ8v28buoH5xKIZwH3Gkn_IqRFqb49XH2AY.js line 2 > eval line 7583 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 24076, MediaDecoderStateMachine #1] WARNING: 17a9cf4a670 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61839
+1691157824074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61840" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ggguh\\AppData\\Local\\Temp\\rust_mozprofileKeb1KD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691157824505	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691157824580	Marionette	INFO	Listening on port 61847
+WebDriver BiDi listening on ws://127.0.0.1:61840
+Read port: 61847
+1691157825215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61840/devtools/browser/d33461b6-dd03-40b4-a87f-2bb9ec540287
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XE-eSxg4gZ8v28buoH5xKIZwH3Gkn_IqRFqb49XH2AY.js line 2 > eval line 6995 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 10320, MediaDecoderStateMachine #1] WARNING: 23a07656de0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1691157871788	geckodriver	INFO	Listening on 127.0.0.1:61911
+1691157874857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61912" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ggguh\\AppData\\Local\\Temp\\rust_mozprofile4S2v9t"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691157875246	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691157875336	Marionette	INFO	Listening on port 61921
+WebDriver BiDi listening on ws://127.0.0.1:61912
+Read port: 61921
+1691157876342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61912/devtools/browser/a3522177-e9b4-4ba3-980b-b23bfb839933
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XE-eSxg4gZ8v28buoH5xKIZwH3Gkn_IqRFqb49XH2AY.js line 2 > eval line 6809 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 18636, MediaDecoderStateMachine #1] WARNING: 1981b248780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61986
+1691157923390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ggguh\\AppData\\Local\\Temp\\rust_mozprofiletxs0wL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691157923879	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691157923999	Marionette	INFO	Listening on port 61994
+WebDriver BiDi listening on ws://127.0.0.1:61987
+Read port: 61994
+1691157925372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61987/devtools/browser/216e16dc-0c80-4b63-bfaf-68680ed80fd1
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XE-eSxg4gZ8v28buoH5xKIZwH3Gkn_IqRFqb49XH2AY.js line 2 > eval line 4639 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 27384, MediaDecoderStateMachine #1] WARNING: 28999248670 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 27384, MediaDecoderStateMachine #1] WARNING: 28999248ab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1691391893095	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152398850, errorCode: 5, reason: timeout
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE

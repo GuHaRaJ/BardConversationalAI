@@ -1,0 +1,214 @@
+import pyfiglet
+import pyautogui
+import webbrowser
+import random
+import datetime
+from TakeCommand import takeCommand
+import os
+from search import searchGoogle
+import playsound
+from Speak import Speak
+from news import getNewsUrl
+from playmusic import startPlaymusic
+from playmusic import pauseMusic
+from playmusic import unpauseMusic
+from playmusic import stopMusic
+from system_stats import getcpuper,getbattery,getram
+from playsound import playsound
+import pyautogui
+from volumecontrol import volumeup
+from open_app_web import closeappweb
+from open_app_web import openappweb
+from search import searchYoutube
+from volumecontrol import volumedown
+from news import speak_news
+from open_app_web import closeappweb
+from fun import youtube
+from greetme import greetMe
+
+MUSICS_DIR = "D:\MUSIC"
+
+
+if __name__ == "__main__":
+    playsound('assets_sounds_jarvislistening (mp3cut.net).mp3')
+    while True:
+        query = (takeCommand().lower())
+        query = str(query)
+        if len(query)<3:
+            pass
+        
+        elif "wake up" in query:
+            from greetme import greetMe
+            print(pyfiglet.figlet_format("                                    JARVIS"))
+            
+            greetMe()
+            while True:
+                query = takeCommand().lower()
+                if("jarvis") in query:
+                    playsound('assets_sounds_jarvislistening (mp3cut.net).mp3')
+                    while True:
+                        query = takeCommand().lower()
+                # query = query.replace("jarvis","")
+                        if len(query)<5:
+                            break
+
+                        elif "go to sleep" in query or "sleep" in query:
+                            Speak("going into sleep mode")
+                            break
+
+                        elif "tell me about today's briefing" in query  or "brief the day" in query or "how are things outside" in query or "jarvis how are the things going on outside" in query or "how are the things going on outside" in query or "today's updates" in query  or "how is the day outside" in query or "how is the day outside" in query or "weather updates" in query:
+                            from greetme import Temperature
+                            Temperature()
+                            from greetme import humidity
+                            humidity()
+                            from greetme import wind_speed
+                            wind_speed()
+                            break
+                
+                        elif "play music" in query or "play songs" in query:
+                            Speak("playing songs from your local playlist")
+                            startPlaymusic(MUSICS_DIR)
+                            break
+                
+                        elif "pause music" in query:
+                            Speak("music paused")
+                            pauseMusic()
+                            break
+                
+                        elif "unpause music" in query:
+                            unpauseMusic()
+                            break
+                
+                        elif "stop music" in query or "stop playing songs" in query:
+                            Speak("music player has been stopped")
+                            stopMusic()
+                            break
+
+####################################################FIREFOX#########################################################
+                        elif "tired" in query or "i am feeling tired" in query or "i am feeling bored" in query:
+                            youtube()
+                            break
+                
+                        elif "open" in query:
+                            openappweb(query)
+                            break
+
+                        elif "close" in query:
+                            closeappweb(query)
+                            break
+                
+                        elif "close the current app" in query:
+                            closeappweb(query)
+                            break
+                
+                        elif 'news' in query:
+                            Speak('reading the top headlines..')
+                            speak_news()
+                            Speak('Do you want to read the full news...')
+                            test = takeCommand()
+                            if 'yes' in test:
+                                Speak('Ok Sir, Opening browser...')
+                                webbrowser.open(getNewsUrl())
+                                Speak('You can now read the full news from this website.')
+                            else:
+                                Speak('No Problem Sir')
+                                break
+                
+                        elif "screenshot" in query:
+                            query = query.replace("jarvis ","")
+                            im = pyautogui.screenshot()
+                            im.save()
+                            im.save("ss.jpg")
+                            break
+                
+                
+                        elif "google" in query or "google search" in query:
+                            query = query.replace("jarvis ","")
+                            searchGoogle(query)
+                            break
+                        elif "youtube" in query:
+                            query = query.replace("jarvis ","")
+                            searchYoutube(query)
+                            break
+                        elif "stop" in query:
+                            query = query.replace("jarvis ","")
+                            pyautogui.press("k")
+                            Speak("video stopped")
+                            break
+                        elif "play" in query:
+                            query = query.replace("jarvis ","")
+                            pyautogui.press("k")
+                            Speak("video played")
+                            break
+                        elif "mute" in query:
+                            query = query.replace("jarvis ","")
+                            pyautogui.press("m")
+                            Speak("video muted")
+                            break
+                
+                        elif "volume up" in query:
+                            query = query.replace("jarvis ","")
+                    
+                            Speak("turning volume up")
+                            volumeup()
+                            break
+                
+                        elif "volume down" in query:
+                            query = query.replace("jarvis ","")
+                            Speak("turning volume down")
+                            volumedown()
+                            break
+                
+                        elif "how much power left" in query or "how much power is left" in query or "battery" in query or "battery status" in query or "how much power we have" in query or "can you check the battery" in query or "how much power are we left with" in query or "battery percentage" in query or "how much is the battery percentage" in query or "how much power are we left" in query:
+                            from system_stats import getbattery
+                            getbattery()
+                            break
+
+                        elif "today's date" in query or "todays date" in query or "what's the date" in query:
+                            from datetime import date
+                            today = date.today()
+                            Speak(f"Today's date is {today}")
+                            break
+
+                        elif "the time" in query or "what's the time" in query or "time" in query or "what's the time" in query:
+                            strTime = datetime.datetime.now().strftime("%H:%M")
+                            Speak(f"sir, the time is {strTime}")
+                            break
+                
+                        elif "system stats" in query or "how is the system operating" in query or "how is the system running" in query or "how is the system working" in query or "cpu usage" in query or "cpu running" in query:
+                            Speak("performing a check")
+                            getcpuper()
+                            getbattery()
+                            getram()
+                            break
+                
+                        elif "terminate" in query or "jarvis terminate" in query:
+                            Speak("Going off sir")
+                            exit()
+
+                        elif "shutdown system" in query:
+                            Speak("are you sure you want to shutdown your computer? (yes/no)")
+                            if "yes" in query:
+                                os.system("shutdown /s /t 1")
+                                break
+                            elif "no" in query:
+                                Speak("system will be running in normal")
+                                break
+                
+                        elif "what do you mean" in query or "who is" in query or "what" in query or 'when' in query or "explain" in query:
+                            from palm import palmtext
+                            query = query.replace("jarvis","")
+                            palmtext(query)
+                            break
+
+                        elif "" in query:
+                            from palm_chat import palmchat
+                            palmchat(query)
+                            break
+                
+
+                
+                
+
+                
+                

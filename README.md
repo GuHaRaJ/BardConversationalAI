@@ -1,7 +1,7 @@
 # J.A.R.V.I.S
 
 ## Overview
-J.A.R.V.I.S is a simple conversational AI designed to assist users with various daily tasks through voice interaction and automation.
+J.A.R.V.I.S is a conversational AI designed to assist users with various daily tasks through voice interaction and automation, inspired by the movie Iron Man.
 
 ## Features
 - **News Updates:** Fetches and vocalizes the latest news headlines using the News API, allowing users to stay informed effortlessly.
